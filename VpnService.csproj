@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-VpnService-8C30F7B7-7E21-4359-8DB0-04B6F1DB5A2E</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="InputSimulator" Version="1.0.4" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="6.0.2" />
+        <PackageReference Include="Serilog.Extensions.Hosting" Version="7.0.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+        <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    </ItemGroup>
+</Project>
